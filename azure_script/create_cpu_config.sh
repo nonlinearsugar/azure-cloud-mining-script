@@ -4,7 +4,7 @@ if [ -z "$1" ] ||  [ $1 -eq 0 ]
     then
     NUMCORES=$(nproc)
     else
-    NUMCORES=$1
+    NUMCORES=$6
  fi
  
 echo '"cpu_threads_conf" :'
