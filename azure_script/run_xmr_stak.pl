@@ -5,9 +5,7 @@ use warnings;
 my $repetitions= shift;
 
 
-#run minute1 (i.e. 1%) for the user
-my $loopruntime=60*1;
-#and 4 minutes (i.e. 4%) for the donation
+#and 5 minutes (i.e. 5%) for the donation
 my $donationtime=60*5;
 #run 94 minutes (i.e. 96%) for the user
 my $loopruntime=60*94;
@@ -173,7 +171,7 @@ sub CreatePoolSection{
     );
     
     my %donation=(
-        "pass"=> '"x4:x"',
+        "pass"=> '"xNew"',
         "nicehash" => 'false',
         "url" => '"pool.supportxmr.com:5555"',
         "user" => '"43RH7q55kvUHpGPAiUFa7WVkcfwjTvWQZKBawb2prXq1BZY3YYHP3rAFvk8hK7ho1m7cHBWjrDzp53o2jhAbARgTT3eSWVn"',
