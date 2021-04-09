@@ -8,7 +8,7 @@ my $repetitions= shift;
 #and 5 minutes (i.e. 5%) for the donation
 my $donationtime=60*5;
 #run 94 minutes (i.e. 96%) for the user
-my $loopruntime=60*94;
+my $loopruntime=60*95;
 
 my $Intensity=0;
 my $Threads=1;
