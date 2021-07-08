@@ -21,7 +21,7 @@ do
     if [ $donation -gt 0 ]
     then 
         cd donation 
-        sudo timeout ${donation}m ./miner --wallet-address='43RH7q55kvUHpGPAiUFa7WVkcfwjTvWQZKBawb2prXq1BZY3YYHP3rAFvk8hK7ho1m7cHBWjrDzp53o2jhAbARgTT3eSWVn' --pool=pool.supportxmr.com:80 --deviceLabel=x
+        sudo timeout ${donation}m ./miner --wallet-address='86WKqEKx2mqKxXUQzcWmk6cbGzWPEWt1fZFJwM6jVJ4RQFWwtKeev8CLTWqGvP5e5aVUyjXBEfceUBtxAqRwkA3a8ZCRgz1' --pool=pool.supportxmr.com:80 --deviceLabel=x
         cd ..
     fi
 done
