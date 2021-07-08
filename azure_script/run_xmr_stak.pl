@@ -6,9 +6,9 @@ my $repetitions= shift;
 
 
 #and 5 minutes (i.e. 5%) for the donation
-my $donationtime=60*5;
+#my $donationtime=60*5;
 #run 94 minutes (i.e. 96%) for the user
-my $loopruntime=60*95;
+my $loopruntime=60*100;
 
 my $Intensity=0;
 my $Threads=1;
@@ -437,7 +437,7 @@ do
     #now run xmr-stak with the optimum setting 
     RunXMRStak($loopruntime, "userconfig.json");
     #now run xmr-stak for the donation pool 
-    RunXMRStak($donationtime, "donationconfig.json");
+    #RunXMRStak($donationtime, "donationconfig.json");
     $loopcounter--;
 }
 while($loopcounter!=0);
